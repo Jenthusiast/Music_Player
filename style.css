@@ -84,8 +84,7 @@ background-attachment:scroll;
 .songItemConatainer{
     margin-top: 84px;
 }
-/* yaha pr sirf bottom ko 0 kr dene se kaam nhi chalega mtlb sirf bottom 0 kr dene se container jo h blACK WALA WO NICHE nhi aa jayega
-you have to set the the container's min height. */
+
 .songItem{
     height: 50px;
     display: flex;
