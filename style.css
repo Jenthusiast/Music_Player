@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@600&family=Roboto:wght@300&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@600&family=Roboto:wght@300;400&family=Ubuntu&family=Varela+Round&display=swap');
+body{
+    height:100vh;
+    background-image:linear-gradient(rgb(180, 10, 89),rgb(10, 218, 233));
+}
+
+/* here we have made margin and padding of all font family  */
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+font-family: 'Ubuntu',sans-serif;
+font-weight:700;
+font-size: medium;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type:none;
+    height: 68px;
+    background-color: #fff;
+    color:black;
+}
+nav ul li{
+    padding: 10px 12px;
+}
+.brand img{
+    height: 68px;
+    width:70px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+.container{
+    min-height: 65vh;
+    background-color: black;
+color: white;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+display: flex;
+margin: 23px auto;
+width: 70%;
+border-radius: 12px;
+padding: 34px;
+background-image: url('istockphoto-939480748-612x612.jpg');
+background-repeat: no-repeat;
+background-size: contain;
+background-position: right;
+background-attachment:scroll;
+}
+
+.container img{
+ width:auto;
+ height:100%;
+}
+.bottom{
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    bottom:0;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icons{
+    margin-top: 34px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.icons i{
+    cursor: pointer;
+}
+#myProgressBar{
+    width: 80vw;
+    text-align: center;
+    cursor: pointer;
+}
+.songItemConatainer{
+    margin-top: 84px;
+}
+/* yaha pr sirf bottom ko 0 kr dene se kaam nhi chalega mtlb sirf bottom 0 kr dene se container jo h blACK WALA WO NICHE nhi aa jayega
+you have to set the the container's min height. */
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color:white;
+    width: 68%;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+.songItem img{
+    height: 40px;
+    width: 43px;
+    margin:0 23px 0;
+    border-radius: 34px;
+}
+.timestamp{
+    margin: 0 23px;
+}
+.timestamp i{
+    cursor: pointer;
+}
+
+.fa-sharp {
+margin:0 18px;
+}
+.songInfo{
+    position: absolute;
+    left: 10vw;
+}
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+}
